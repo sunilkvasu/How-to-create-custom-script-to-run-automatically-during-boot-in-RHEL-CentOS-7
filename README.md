@@ -26,10 +26,10 @@ WantedBy=default.target
 
 
 
-After= : If the script needs any other system facilities (networking, etc), 
-modify the [Unit] section to include appropriate After=, Wants=, or Requires= directives.
-Type= : Switch Type=simple for Type=idle in the [Service] section to delay execution of 
-the script until all other jobs are dispatched
+After= : If the script needs any other system facilities (networking, etc), modify the [Unit] section to include appropriate After=, Wants=, or Requires= directives.
+
+Type= : Switch Type=simple for Type=idle in the [Service] section to delay execution of the script until all other jobs are dispatched
+
 WantedBy= : target to run the sample script in
 
 
